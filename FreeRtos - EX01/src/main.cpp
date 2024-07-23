@@ -43,7 +43,7 @@ void vTask2(void *pvParameters){
   int cont = 0;
   while (true){
     Serial.println("Task 2: " + String(cont++));
-    vTaskDelay(pdMS_TO_TICKS(1000 ));
+    vTaskDelay(pdMS_TO_TICKS(1000));
   }
   
 }

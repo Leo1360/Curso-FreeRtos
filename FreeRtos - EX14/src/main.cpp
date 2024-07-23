@@ -31,7 +31,6 @@ void setup() {
   xTaskCreate(vTask2, "Task2", configMINIMAL_STACK_SIZE, NULL, 1, &xTask2Handle);
 
   xTimerStart(xTimer,0);
-
 }
 
 void loop() {

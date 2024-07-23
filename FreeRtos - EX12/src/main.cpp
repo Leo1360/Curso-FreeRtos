@@ -31,8 +31,6 @@ void setup() {
 
   xTaskCreate(vTask1, "Task 1", configMINIMAL_STACK_SIZE+1024, NULL, 1, &xTask1Handle);
   xTaskCreate(vTask2, "Task 2", configMINIMAL_STACK_SIZE+1024, NULL, 4, &xTask2Handle);
-
-
 }
 
 void loop() {

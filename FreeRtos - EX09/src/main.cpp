@@ -13,7 +13,7 @@ SemaphoreHandle_t xSemaphore;
 
 void vTaskADC(void *pvParameters);
 void fatalError(String text);
-void SerialPlot(const String &nome, int valor);
+void SerialPlotInt(const String &nome, int valor);
 
 void setup() {
   Serial.begin(115200);
